@@ -4,18 +4,18 @@ DecisionTree
 The function cv(data,label,folds,shuffle) is to be called for execution.
 
 It takes 4 arguments:
-  data : the list of lists containing the training data, including the label column
-  label : the index of the column in 'data' which is to be taken as the label column (index starts from 0)
-  folds : specifies the k in k-fold cross validation.
-  shuffle : if 1, the row vectors in 'data' will be shuffled.
+  data : the list of lists containing the training data, including the label column ;
+  label : the index of the column in 'data' which is to be taken as the label column (index starts from 0) ;
+  folds : specifies the k in k-fold cross validation ;
+  shuffle : if 1, the row vectors in 'data' will be shuffled ;
 
 The function prints the testing error on each fold and finally the average error on k-fold cross validation.
 
 Note:
-  The data MUST be only real-valued
-  The labels can be quantitative and qualitative, i.e., numeric, real, or string
-  The label column vector must be included in 'data'
-  There should be no missing values
+  The data MUST be only real-valued ;
+  The labels can be quantitative and qualitative, i.e., numeric, real, or string ;
+  The label column vector must be included in 'data' ;
+  There should be no missing values ;
 
 
 Example:
