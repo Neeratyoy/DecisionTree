@@ -25,7 +25,5 @@ data = [[5.1,3.5,1.4,0.2,'I. setosa'],[4.9,3.0,1.4,0.2,'I. setosa'],...,[5.9,3.0
 since the strings are labels and is in the 5th index of each row vector, 
 label = 4
 
-so to do a 10-fold cross validation on 'data', the function call has to be so:
-
-cv(data,4,10,1)
+so to do a 10-fold cross validation on 'data', the function call has to be so: cv(data,4,10,1)
 
