@@ -4,7 +4,11 @@ DecisionTree
 The function cv(data,label,folds,shuffle) is to be called for execution.
 
 It takes 4 arguments:
--> data : the list of lists containing the training data, including the label column 
+
+
+data : the list of lists containing the training data, including the label column 
+
+
 -> label : the index of the column in 'data' which is to be taken as the label column (index starts from 0) 
 -> folds : specifies the k in k-fold cross validation 
 -> shuffle : if 1, the row vectors in 'data' will be shuffled 
